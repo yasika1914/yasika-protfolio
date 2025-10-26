@@ -23,3 +23,33 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+// Contact Form Submission using EmailJS
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form data
+    const formData = new FormData(this);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+
+    // Prepare EmailJS parameters
+    const templateParams = {
+        from_name: name,
+        from_email: email,
+        message: message,
+        to_name: 'Yasika', // Your name or recipient name
+    };
+
+    // Send email using EmailJS
+    emailjs.send('your_service_id_here', 'your_template_id_here', templateParams)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            document.getElementById('form-status').innerHTML = '<p style="color: green;">Message sent successfully!</p>';
+            document.getElementById('contact-form').reset(); // Reset form
+        }, function(error) {
+            console.log('FAILED...', error);
+            document.getElementById('form-status').innerHTML = '<p style="color: red;">Failed to send message. Please try again.</p>';
+        });
+});

@@ -10,3 +10,11 @@
 - [x] Add all files to staging
 - [x] Commit changes
 - [x] Push to repository
+
+# Contact Form Integration Tasks
+
+- [x] Add EmailJS script to index.html
+- [x] Add contact form to contact section in index.html
+- [x] Update app.js to handle form submission with EmailJS
+- [x] Test form locally (server running on port 8000)
+- [ ] Commit and push changes to GitHub
