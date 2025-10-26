@@ -17,4 +17,4 @@
 - [x] Add contact form to contact section in index.html
 - [x] Update app.js to handle form submission with EmailJS
 - [x] Test form locally (server running on port 8000)
-- [ ] Commit and push changes to GitHub
+- [x] Commit and push changes to GitHub
