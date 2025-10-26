@@ -571,6 +571,171 @@ p {
 }
 /* End Keyframes */
 
+/* Media Query For Mobile */
+@media only screen and (max-width: 767px) {
+	.cta {
+		font-size: 1.2rem;
+		padding: 8px 16px;
+	}
+	h1.section-title {
+		font-size: 2rem;
+	}
+	.brand h1 {
+		font-size: 2rem;
+	}
+
+	/* Hero */
+	#hero h1 {
+		font-size: 2.5rem;
+	}
+	#hero .hero {
+		padding: 0 20px;
+	}
+	/* End Hero */
+
+	/* Services/Skills */
+	#services .services {
+		padding: 50px 20px;
+	}
+	.skills-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.skill {
+		width: 100%;
+		max-width: 300px;
+	}
+	.skill-header img {
+		width: 30px;
+		height: 30px;
+	}
+	.skill-title {
+		font-size: 1rem;
+	}
+	.skill-bar {
+		height: 10px;
+	}
+	.skill-percent {
+		font-size: 0.8rem;
+	}
+	/* End Services */
+
+	/* Projects */
+	#projects .projects {
+		padding: 50px 20px;
+	}
+	#projects .project-item {
+		width: 100%;
+		flex-direction: column;
+		height: auto;
+	}
+	#projects .project-info {
+		padding: 20px;
+	}
+	#projects .project-info h1 {
+		font-size: 2rem;
+	}
+	#projects .project-info h2 {
+		font-size: 1.5rem;
+	}
+	#projects .project-img {
+		height: 200px;
+	}
+	/* End Projects */
+
+	/* About */
+	#about .about {
+		padding: 50px 20px;
+		flex-direction: column-reverse;
+	}
+	#about .col-left {
+		width: 200px;
+		height: 250px;
+		margin: 0 auto;
+	}
+	#about .col-right h2 {
+		font-size: 1.5rem;
+	}
+	#about .col-right p {
+		font-size: 1rem;
+	}
+	#about .col-right .cta {
+		font-size: 1rem;
+		padding: 8px 16px;
+	}
+	/* End About */
+
+	/* Contact */
+	#contact .contact {
+		padding: 50px 20px;
+	}
+	#contact .contact-items {
+		flex-direction: column;
+		align-items: center;
+	}
+	#contact .contact-item {
+		width: 100%;
+		max-width: 300px;
+		flex-direction: column;
+		padding: 20px;
+	}
+	#contact .contact-info h1 {
+		font-size: 2rem;
+	}
+	#contact .contact-info h2 {
+		font-size: 1rem;
+	}
+	/* End Contact */
+
+	/* Tools */
+	.tools-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.tool-item {
+		width: 100%;
+		max-width: 200px;
+	}
+	/* End Tools */
+
+	/* Certificates */
+	.certificates-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.certificate-item {
+		width: 100%;
+		max-width: 250px;
+	}
+	/* End Certificates */
+
+	/* Education */
+	.education .education-item {
+		padding: 10px;
+	}
+	.education .education-item h2 {
+		font-size: 1.1rem;
+	}
+	.education .education-item p {
+		font-size: 0.9rem;
+	}
+	/* End Education */
+
+	/* Footer */
+	#footer .footer {
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	#footer p {
+		font-size: 1rem;
+	}
+	#footer .social-item {
+		height: 40px;
+		width: 40px;
+	}
+	/* End Footer */
+}
+
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
