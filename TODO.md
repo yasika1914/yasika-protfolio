@@ -7,6 +7,6 @@
 - [x] Remove .git from outer folder
 - [x] Re-initialize Git in correct project folder
 - [x] Add remote origin to https://github.com/yasika1914/yasika-protfolio.git
-- [ ] Add all files to staging
-- [ ] Commit changes
-- [ ] Push to repository
+- [x] Add all files to staging
+- [x] Commit changes
+- [x] Push to repository
